@@ -1,0 +1,12 @@
+/* components/loader.css */
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    color: linear-gradient(to right, #fffb00, #c5cf7d);
+    
+  }
+  

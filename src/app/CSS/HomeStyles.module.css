@@ -1,0 +1,60 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #9900ff, #cc80ff);
+  }
+  
+  .headerStyled {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .loginButton,
+  .signupButton {
+    padding: 1rem 2rem;
+    background: linear-gradient(to right, #FFC107, #FF9800);
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+
+  .loginButton:hover,
+  .signupButton:hover {
+    background: black;
+    color: white;
+    transform: scale(1.05);
+  }
+
+  .heading{
+    display: inline-block;
+  }
+  .text{
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    margin-bottom: 30px;
+    overflow: hidden;
+    animation: 
+        typing 5s infinite ,
+        cursor .4s step-end infinite alternate;
+  }
+
+  @keyframes cursor {
+    50% {border-color: transparent}
+  }
+
+  @keyframes typing {
+    from {width:0}
+  }
+  

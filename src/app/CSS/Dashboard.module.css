@@ -1,0 +1,39 @@
+.gifs{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.gif{
+    padding: 0 2px;
+}
+
+/* Custom styles */
+.custom{
+    max-width: 350px;
+  }
+
+  .form{
+    display: flex;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    margin-bottom: 30px;
+  }
+
+.heading{
+  text-align: center;
+  width: 500px;
+  padding: 10px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
